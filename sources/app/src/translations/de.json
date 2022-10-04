@@ -1,0 +1,8 @@
+{
+  "error.default": "Ein Fehler ist aufgetreten",
+  "login.username": "Benutzer",
+  "login.password": "Passwort",
+  "login.button": "Anmelden", 
+  "login.user.failed": "Die Anmeldung ist fehlgeschlagen",
+  "test.test": "Wilkommen {user}, du bist aber ein tolle Junge"
+}

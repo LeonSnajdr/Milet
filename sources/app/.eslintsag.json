@@ -1,0 +1,27 @@
+{
+  "plugins": ["import"],
+  "rules": {
+    "vue/attribute-hyphenation": "off",
+    "vue/this-in-template": ["error", "never"],
+    "vue/component-definition-name-casing": "off",
+    "vue/multi-word-component-names": "off",
+    "import/first": "error",
+    "import/newline-after-import": "error",
+    "import/no-duplicates": "error",
+    "import/no-self-import": "error"
+  },
+  "overrides": [
+    {
+      "files": ["*.ts"],
+      "rules": {
+        "@typescript-eslint/explicit-member-accessibility": "error"
+      }
+    },
+    {
+      "files": ["*.js"],
+      "rules": {
+        "@typescript-eslint/no-var-requires": "off"
+      }
+    }
+  ]
+}

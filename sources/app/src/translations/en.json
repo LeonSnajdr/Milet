@@ -1,0 +1,8 @@
+{
+  "error.default": "An error occurred",
+  "login.username": "Username",
+  "login.password": "Password",
+  "login.button": "Login", 
+  "login.user.failed": "The login failed",
+  "test.test": "Wilkommen {user}, du bist aber ein tolle Junge"
+}
